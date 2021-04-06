@@ -1,0 +1,440 @@
+.visible-ipad{
+	display:none;
+	padding:15px 0;
+}
+	.row{
+		margin-top:0;
+	}
+.img-adv{
+	max-width:100%;
+}
+
+a.view-more{
+	width:100%;
+}
+.one_third img, .events-image-part img{
+	max-width:100%;
+}
+.news_content{
+margin-bottom:15px;
+}
+/*  .top_section,.header{
+	display:none !important;
+}
+.slidermar{
+	margin-top:0px !important;
+}
+ */
+
+@media only screen and (min-width: 600px) and (max-width: 979px) {
+    .col-sm-1 {
+        width: 8.33333333%;
+    }
+    .col-sm-2 {
+        width: 16.66666667%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-8 {
+        width: 66.66666667%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9 {
+        float: left;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1080px) {
+.events-image-part img{
+		max-width:100%;
+	width:100%;
+
+}
+#rss-news li  span{
+	font-size:13px;
+}
+#logo11{
+	    background-position: center;
+    background-size: contain;
+    margin: 0;
+    height: unset;
+}
+.slider-right .text{
+	text-align:center;
+}
+}
+
+@media screen and (max-width: 979px) {
+	.container{
+		width:100%;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+
+	#logo11{
+	
+height: 150px;
+}
+.top_section{
+	height: 150px;
+}
+.top_section .left{
+	padding-right:25px;
+	width:75%;
+}
+.top_section .right{
+	width:25%;
+}
+.header, .compact .header{
+	top:150px;
+
+}
+.slidemar{
+	    margin-top: 190px;
+}
+.header .container{
+	padding:0;
+}
+.menu_rlinks{
+    margin: 0;
+    width:25%;
+    text-align: center
+}
+.navbar-toggle{
+	    padding: 7px 15px;
+		margin: 0;
+			background:#3c3c3c;
+} 
+.menu_rlinks .mrbut{
+	    display: inline-block;
+    width: 100%;
+}
+.navbar-collapse{
+	width:100%;
+}
+li.dropdown ul.dropdown-menu li a:hover{
+	color:#ffffff;
+}
+.innerpage-box{
+	margin:0;
+}
+.reg_img{
+	display:block;
+	margin:0 auto;
+}
+.cd-panel__content p{
+	font-size:14px;
+	line-height:19px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+	.top_section .right{
+width:35%;
+}
+	.top_section .right img{
+		max-width:100%;
+	}
+.top_section .left{
+width:65%;
+
+}
+.top_section{
+	height:120px;
+}
+
+.header, .compact .header{
+	top:120px;
+
+}
+
+#logo11{
+	    min-height: 120px;
+    height: 100%;
+}
+.slidermar {
+    margin-top: 180px;
+}
+
+.footer-copyright, .footer-links, .footer-designby{
+	width:100%;
+}
+ul.footer_social_links{
+	margin:10px 0 0;
+}
+.footer-designby ul.footer_social_links{
+	margin:0;
+}
+.footer-designby ul.footer_social_links li{
+	margin-left:0;
+}
+.events-text-part h4{
+	margin-bottom:0;
+}
+.member-box, .doners-list-box{
+	width:48%;
+	margin-right:4%;
+	margin-bottom:20px;
+}
+.member-box:nth-child(odd) , .doners-list-box:nth-child(odd){
+	margin-right:0;
+}
+.member-box img{
+	width: 100%;
+}
+.reg_img{
+max-width:100%;
+}
+}
+
+@media screen and (max-width: 599px) {
+	
+/*	li.dropdown:hover .dropdown-menu{
+        
+        display:block !important;
+    }
+	
+	*/
+	
+.act	.dropdown-menu.open{
+	    display:block;
+	}
+	.innerpage-box{
+		padding:15px;
+	}
+	.top_section .left{
+width:100%;
+padding-right:0;
+}
+.top_section{
+	height:130px;
+}
+
+.header, .compact .header{
+	top:130px;
+
+}
+.top_section .right{
+	display:none;
+}
+#logo11{
+	
+	    min-height: 130px;
+    height: 100%;
+    background: url(../images/logo-mobile.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.menu_rlinks{
+    margin: 0;
+    width:30%;
+    text-align: center
+}
+
+.slidermar {
+    margin-top: 190px;
+}
+.slider-left, .slider-right, .services-section, .letest-news{
+width:100%;
+}	
+.slider-wrapper{
+margin-bottom:10px;
+}
+.nivoSlider{
+    
+
+}
+.nivo-main-image{
+    
+ 
+
+
+
+}
+.nivo-caption{
+    padding:3px 10px;
+    position:unset;
+}
+.text{
+	text-align:center;
+}
+.letest-news .text{
+	text-align:left;
+	
+}
+/* .top_section, .header{
+	display:none;
+} */
+
+.events-text-part h4 {
+margin-bottom:5px;
+}	
+.present-events, .upcoming-events{
+width:100%;
+padding:0;
+}
+
+.siteinfo{
+margin-top:25px;
+}	
+.siteinfo .clearfix+div{
+	
+margin-top:0px !important;
+}
+
+.news-carousel .owl-item, .gallery-carousel .owl-item{
+	margin-bottom:10px;
+}
+.donate-block .donate-box{
+	width:100%;
+padding: 20px 15px;
+}
+.donate-block .col-md-6, .donate-block .col-md-12{
+	padding:0 15px;
+}
+.modal_Video_Gallery .modal-dialog{
+	width:95%;
+	max-width:480px;
+	top:15%;
+}
+.modal_Video_Gallery .modal-dialog .modal-content{
+	
+    padding: 15px;
+
+	
+}
+}
+@media screen and (max-width:479px) {
+	.slidermar{
+		margin-top:160px;
+	}
+	.top_section{
+	height:100px;
+}
+
+.header, .compact .header{
+	top:100px;
+
+}
+	#logo11{
+	    min-height: 100px;
+    height: 100%;
+}
+.member-box, .doners-list-box{
+	width:100%;
+	margin:0;
+	margin-bottom:15px !important;
+}
+
+}
+@media screen and (min-width:600px) and (max-width:979px) {
+	
+	.visible-ipad{
+		display:block;
+	}
+	.hidden-ipad{
+		display:none;
+	}
+	
+	.slider-left{
+	width:100%;
+	}
+	
+	
+		.letest-news  .hidden-ipad+div{
+			margin-top:0 !important;
+		}
+.visible-ipad	.notification-bg{
+		    min-height:350px;
+	}
+	
+}
+@media screen and (min-width:768px) and (max-width:979px) {
+
+.top_section .right img{
+max-width: 100%;
+    object-fit: cover;
+    min-height: 170px;
+}
+
+
+.member-box{
+	width:31%;
+	margin-right:2.33% !important;
+	margin-bottom:20px;
+}
+
+}
+@media screen and (min-width:980px) {
+		.footer_social_links{
+	float:right;
+}
+#logo11 {
+	
+	min-height: 141px;
+   
+}
+.reg_img{
+	max-width:100%;
+}
+}
+
+@media screen and (min-width:980px) and (max-width:1159px) {
+
+.top_section .left{
+	width: 75%;
+}
+.top_section .right{
+	width:25%;	
+}
+.navbar-nav li a{
+	padding:7px 15px;
+}
+.menu_rlinks{
+	margin:0;
+}
+
+.member-box, .doners-list-box{
+	width:23%;
+	margin-right:2% !important;
+	margin-bottom:20px;
+}
+.notification-bg .scrollingpart{
+	padding-bottom:15px;
+}
+.nivo-main-image{
+	min-height:330px !important;
+}
+}
+@media screen and (min-width: 1200px) {
+	
+
+	
+}
